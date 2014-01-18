@@ -38,4 +38,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\CQRSTesting.Domain\CQRSTesting.Domain.csproj">
+      <Project>{3DF6F797-56FE-4202-99B2-ACE6C267D37D}</Project>
+      <Name>CQRSTesting.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
